@@ -1,0 +1,38 @@
+#imgDiv {
+    margin: auto;
+    width: 50%;
+}
+
+#img2Tag {
+    margin: auto;
+    margin-top: 5%;
+}
+
+#trash {
+    width: 50px;
+    padding: 6px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    margin: 20px;
+    position: relative;
+    float:right;
+}
+
+#trash:hover {
+    cursor: pointer;
+}
+
+.bool {
+    font-size: 46px;
+    font-weight: bolder;
+    position: relative;
+    /* float: left; */
+    margin: auto;
+    margin: 0px 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    width: auto;
+}

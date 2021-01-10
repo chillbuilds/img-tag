@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search It Up</title>
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/tag.css" />
+
 </head>
 <body>
-    <img class="icon" id="home" src="../images/icons/home.png">
+    <div id="modal">
+        <div id="modalCont">
+            Are you Sure?<br><br>
+            <button class="bool" value="true">✔</button>
+            <button class="bool" value="false">X</button>
+        </div>
+    </div>
+    <img class="icon" style="float: left;" id="home" src="../images/icons/home.png">
+
+    <input type="text" placeholder="comma, sparated, tags">
+    <img id="trash" src="../images/icons/trash.png">
+
+    <div id="imgDiv"><img id="img2Tag"></div>
 
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
