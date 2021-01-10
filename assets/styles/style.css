@@ -6,3 +6,13 @@ body {
     background-size: 100% 100%;
     user-select: none; /* makes text non-selectable*/
 }
+
+.icon {
+    width: 50px;
+    padding: 6px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    margin: 20px;
+    position: fixed;
+    float: left;
+}

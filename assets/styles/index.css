@@ -1,0 +1,25 @@
+.mainBtn {
+    font-family: impact;
+    font-size: 58px;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+    padding: 5px 20px;
+    background: rgba(0, 0, 0, .3);
+    color: rgba(0, 0, 0, .7);
+    border-radius: 4px;
+    border-bottom: rgba(0, 0, 0, .3) solid 8px;
+    border-left: rgba(255, 255, 255, .1) solid 6px;
+}
+
+.mainBtn:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: rgba(0, 0, 0, .4) solid 8px;
+    border-left: rgba(255, 255, 255, .2) solid 6px;
+}
+
+#btnCont {
+    margin-top: 20%;
+}
