@@ -1,0 +1,8 @@
+
+body {
+    background-color: #0066CC;
+    background-image: linear-gradient(180deg, #0099CC 0%, #0066CC 20%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    user-select: none; /* makes text non-selectable*/
+}

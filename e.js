@@ -1,6 +1,6 @@
 const fs = require('fs')
-
-const dirArr = ['C:/Users/Master William/Desktop/', 'C:/Users/Master William/Downloads/']
+const taggedDir = 'C:/Users/Master William/Pictures/tagged/'
+const dirArr = ['C:/Users/Master William/Desktop/', 'C:/Users/Master William/Downloads/', 'C:/Users/Master William/Pictures/']
 const imgPre = ['jpg','jpeg','gif','tiff','bmp','pdf','raw']
 var imgArr = []
 
